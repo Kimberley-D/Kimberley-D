@@ -21,3 +21,12 @@ FROM CovidDeaths
 SELECT *
 FROM CovidVaccinations
 
+-- Select the data I will be using
+SELECT location,
+        date,
+        total_cases,
+        new_cases,
+        total_deaths,
+        population_density
+FROM CovidDeaths
+WHERE continent IS NOT NULL
