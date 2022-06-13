@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Kimberley-D
 - 👀 I’m interested in data/business analytics, e-commerce, media, psychology, and social/ethics
-- 🌱 I’m currently learning SQL and Python
+- 🌱 I’m currently working as a Data Analyst for a SaaS
 - 💞️ I’m looking to collaborate on SQL, Python, dashboarding, scraping, visualization
 - 📫 How to reach me -> right here on Github @Kimberley-D
 
