@@ -1,0 +1,43 @@
+# PART 1
+# Import numpy as np
+import numpy as np
+
+# Set the seed
+np.random.seed(123)
+
+# Generate and print random float
+print(np.random.rand())  # Generates a random float between 0 and 1
+
+---
+# PART 2
+# Import numpy and set seed
+import numpy as np
+np.random.seed(123)
+
+# Use randint() to simulate a dice
+print(np.random.randint(1,7))
+
+# Use randint() again
+print(np.random.randint(1,7)) # Generates the integer 4, 5, 6, or 7 randomly
+
+---
+# PART 3
+# NumPy is imported, seed is set
+
+# Starting step
+step = 50
+
+# Roll the dice
+dice = np.random.randint(1,7)
+
+# Finish the control construct
+if dice <= 2 :
+    step = step - 1
+elif dice <= 5 :
+    step = step + 1
+else :
+    step = step + np.random.randint(1,7)
+
+# Print out dice and step
+print(dice)
+print(step)
